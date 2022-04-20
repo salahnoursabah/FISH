@@ -199,6 +199,12 @@ u {
     position: relative;
     left: 435px;
     bottom: 1100px;
+    transition-property: transform;
+    transition-delay: 5s;
+}
+
+.vignette:hover {
+    transform: scale(1.1);
 }
 
 .events {
